@@ -16,10 +16,11 @@ session = Session()
 
 pd.options.display.max_rows = 999
 
-df = pd.read_excel('test.xlsx')
+df = pd.read_excel('Ist-PUCOC.xlsx')
 print(len(df))
 
-df['D.O.B'] = pd.to_datetime(df['D.O.B'],errors='coerce')
+#df['D.O.B'] = pd.to_datetime(df['D.O.B'].dt.strftime("%d/%m/%Y"),errors='coerce')
+df['D.O.B']= pd.to_datetime(df['D.O.B'].dt.strftime("%d/%m/%Y"),errors='coerce')
 
 print(df)
 df.columns=df.columns.str.strip()
