@@ -19,7 +19,7 @@ pd.options.display.max_rows = 999
 df = pd.read_excel('test.xlsx')
 print(len(df))
 
-df['D.O.B'] = pd.to_datetime(df['D.O.B'], format='%d-%m-%Y')
+df['D.O.B'] = pd.to_datetime(df['D.O.B'],errors='coerce')
 
 print(df)
 df.columns=df.columns.str.strip()
@@ -28,7 +28,7 @@ df.columns=df.columns.str.strip()
 
 for i in range(len(df)):
     r=df['REG.NO'][i]
-    d=df['D.O.B']
+    d=df['D.O.B'].dt.date[i]
     n=df['STUDENT NAME'][i]
     r=str(r)
     d=str(d)
