@@ -16,7 +16,7 @@ session = Session()
 
 pd.options.display.max_rows = 999
 
-df = pd.read_excel('first_PU_final.xlsx')
+df = pd.read_excel('Ist-PUCOC.xlsx')
 print(len(df))
 
 df['D.O.B'] = pd.to_datetime(df['D.O.B'], errors='coerce')
@@ -27,9 +27,9 @@ df.columns=df.columns.str.strip()
 
 
 for i in range(len(df)):
-    r=df['REGISTER NUMBER'][i]
+    r=df['REG.NO'][i]
     d=df['D.O.B'].dt.date[i]
-    n=df['NAME'][i]
+    n=df['STUDENT NAME'][i]
     r=str(r)
     d=str(d)
     n=str(n)
@@ -41,8 +41,8 @@ for i in range(len(df)):
 #user = User("python","python")
 #session.add(user)
 
-user = User("umesh","umesh","umesh")
-session.add(user)
+#user = User("umesh","umesh","umesh")
+#session.add(user)
 
 # commit the record the database
 session.commit()
