@@ -3,6 +3,7 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 import os
 from sqlalchemy.orm import sessionmaker
 import datetime
+import glob
 currentDT = datetime.datetime.now()
 from tabledef import *
 engine = create_engine('sqlite:///first_PU.db', echo=True)
@@ -30,12 +31,25 @@ def do_admin_login():
     query = s.query(User.name).filter(User.username.in_([POST_USERNAME]), User.password.in_([POST_PASSWORD]))
     result = query.first()
     print(result,"--------")
+    
+    path = os.getcwd()+"/static/data"
+    list_of_files = []
+    for filename in os.listdir(path):
+        list_of_files.append(filename)
+    print(list_of_files)
+
+    file_names=[]
+    for f in list_of_files:
+        name , ext = f.split('.')
+        file_names.append(name)
+    print(file_names)
+
     if result:
         session['logged_in'] = True
         # print(q,"----------------")
 #        with open('out.txt', 'a') as f:
 #            print(POST_USERNAME,"------>",currentDT.strftime("%Y-%m-%d %I:%M:%S %p"),file=f)
-        return render_template('home.html',name=result[0])
+        return render_template('home.html',name=result[0],files=list_of_files,file_names=file_names)
     else:
         flash('wrong password!')
         return home()

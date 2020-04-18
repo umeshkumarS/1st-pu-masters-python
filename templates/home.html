@@ -147,78 +147,68 @@
   <br>
 
 
-    <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Biology - Biological Classification</h4>
+     <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
+      <h4 style="font-size: 13px !important;">Biology - Biological Classification</h4>
       <a href="{{ url_for('static',filename='BIOLOGICAL_CLASSIFICATION.docx')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Biology - Biological Classification Key</h4>
+      <h4 style="font-size: 13px !important;">Biology - Biological Classification Key</h4>
       <a href="{{ url_for('static',filename='Biological_classification-key.docx')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Mathematics - CET Online Test 1</h4>
+      <h4 style="font-size: 13px !important;">Mathematics - CET Online Test 1</h4>
       <a href="{{ url_for('static',filename='maths_cet_online_test-1.docx')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Mathematics - CET Online Test 1 Key</h4>
+      <h4 style="font-size: 13px !important;">Mathematics - CET Online Test 1 Key</h4>
       <a href="{{ url_for('static',filename='maths_cet_online_test-1-key.docx')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Physics - Motion in straight line vectors units and dimensions</h4>
+      <h4 style="font-size: 13px !important;">Physics - Motion in straight line vectors units and dimensions</h4>
       <a href="{{ url_for('static',filename='Motion_in_straight_line_vectors_units_and_dimensions.doc')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Physics - Motion in straight line vectors units and dimensions Key</h4>
+      <h4 style="font-size: 13px !important;">Physics - Motion in straight line vectors units and dimensions Key</h4>
       <a href="{{ url_for('static',filename='Motion_in_straight_line_vectors_units_and_dimensions_key.doc')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Chemistry - REDOX_REACTIONS_-QP</h4>
+      <h4 style="font-size: 13px !important;">Chemistry - REDOX_REACTIONS_-QP</h4>
       <a href="{{ url_for('static',filename='REDOX_REACTIONS_-QP.docx')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
     </div>
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Chemistry - REDOX_REACTIONS Key</h4>
+      <h4 style="font-size: 13px !important;">Chemistry - REDOX_REACTIONS Key</h4>
       <a href="{{ url_for('static',filename='REDOX_REACTIONS-key.docx')}}" download>
     <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
         </a>
-    </div>
+    </div> 
+
+
+    
+      {% for file in files %}
+      
       <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Mathematics - CET Online Test 2</h4>
-      <a href="{{ url_for('static',filename='maths_cet_online_test-2.docx')}}" download>
-    <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
-        </a>
-    </div>
-      <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Mathematics - CET Online Test 2 Key</h4>
-      <a href="{{ url_for('static',filename='_maths_cet_online_test-2-ke.docx')}}" download>
-    <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
-        </a>
-    </div>
-      <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Biology - Plant Kingdom</h4>
-      <a href="{{ url_for('static',filename='PLANT_KINGDOM.docx')}}" download>
-    <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
-        </a>
-    </div>
-      <div class="col-sm-4" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);text-align: center;padding: 5px;">
-      <h4>Biology - Plant Kingdom Key</h4>
-      <a href="{{ url_for('static',filename='Plant_kingdom-ke.docx')}}" download>
-    <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
-        </a>
-    </div>
+        <h4 style="font-size: 13px !important;">{{file}}</h4>
+        <a href="{{ url_for('static',filename='data/'+file)}}" download>
+          <img src="{{ url_for('static',filename='pdf-png.png')}}" alt="File-1" width="104" height="142">
+          </a>
+      </div>
+     
+      {% endfor %}
+    
     
       
   </div>
