@@ -13375,3 +13375,561 @@ WHERE users.username IN (?) AND users.password IN (?)
 2020-05-02 03:46:16,895 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
 2020-05-02 03:46:16,895 INFO sqlalchemy.engine.base.Engine ()
 2020-05-02 03:46:16,897 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:17,056 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:17,056 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:17,056 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:17,057 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:17,059 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:17,059 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:17,060 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:17,060 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:17,061 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:47:17,061 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:47:17,061 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:17,065 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:32,221 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:32,221 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:32,221 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:32,222 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:32,222 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:47:32,222 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:32,225 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:32,225 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:32,225 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:47:32,226 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:47:32,226 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:47:32,226 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:48:16,362 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:48:16,362 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:48:16,363 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:48:16,363 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:48:16,364 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:48:16,364 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:48:16,366 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:48:16,366 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:48:16,366 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:48:16,366 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:48:16,367 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:48:16,367 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:16,514 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:49:16,514 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:16,515 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:49:16,515 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:16,516 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:49:16,516 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:16,518 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:49:16,518 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:16,518 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:49:16,518 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:16,519 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:49:16,519 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:28,463 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:49:28,463 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:28,463 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:49:28,463 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:49:28,464 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 03:49:28,464 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 03:49:28,464 INFO sqlalchemy.engine.base.Engine ('19MB407', '2003-09-25', 1, 0)
+2020-05-02 03:50:16,718 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:16,718 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:16,719 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:16,719 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:16,720 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:50:16,720 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:16,721 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:16,721 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:16,722 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:16,722 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:16,722 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:50:16,723 INFO sqlalchemy.engine.base.Engine ()
+((u'ANVITHA DAVID',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 03:50:24,857 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:24,857 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:24,858 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:24,858 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:24,858 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:50:24,859 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:24,861 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:24,861 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:24,861 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:24,862 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:24,862 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:50:24,862 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:36,849 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:36,849 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:36,849 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:50:36,849 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:50:36,849 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 03:50:36,850 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 03:50:36,850 INFO sqlalchemy.engine.base.Engine ('19MC503', '2003-02-08', 1, 0)
+2020-05-02 03:51:13,832 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:51:13,832 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:13,832 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:51:13,833 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:13,833 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:51:13,833 INFO sqlalchemy.engine.base.Engine ()
+((u'MANOJ J BHARADWAJ',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 03:51:17,157 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:51:17,157 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:51:17,157 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:17,157 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:51:17,157 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:17,158 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:51:17,158 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:17,161 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:17,161 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:51:17,161 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:51:17,162 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:51:17,162 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:52:17,332 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:52:17,335 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:52:17,335 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:52:17,335 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:52:17,335 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:52:17,336 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:52:17,336 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:52:17,333 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:52:17,337 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:52:17,337 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:52:17,338 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:52:17,339 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:53:17,537 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:53:17,537 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:53:17,538 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:53:17,538 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:53:17,539 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:53:17,539 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:53:17,541 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:53:17,541 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:53:17,541 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:53:17,542 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:53:17,542 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:53:17,542 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:54:17,723 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:54:17,723 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:54:17,724 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:54:17,724 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:54:17,724 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:54:17,725 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:54:17,725 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:54:17,725 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:54:17,725 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:54:17,726 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:54:17,726 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:54:17,726 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:55:16,896 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:55:16,899 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:55:16,899 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:55:16,899 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:55:16,899 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:55:16,900 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:55:16,900 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:55:16,897 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:55:16,901 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:55:16,901 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:55:16,902 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:55:16,902 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:17,042 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:56:17,042 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:17,042 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:56:17,043 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:17,043 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:56:17,043 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:17,045 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:56:17,045 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:17,045 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:56:17,045 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:17,046 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:56:17,046 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:58,795 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:56:58,795 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:58,795 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:56:58,795 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:56:58,795 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 03:56:58,796 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 03:56:58,796 INFO sqlalchemy.engine.base.Engine (' 19MB051', '2004-01-14', 1, 0)
+(None, '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 03:57:10,494 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 03:57:10,495 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 03:57:10,495 INFO sqlalchemy.engine.base.Engine ('19MB051', '2004-01-14', 1, 0)
+2020-05-02 03:57:17,252 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:57:17,252 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:57:17,253 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:57:17,255 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:57:17,255 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:57:17,255 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:57:17,255 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:57:17,256 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:57:17,256 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:57:17,261 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:57:17,262 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:57:17,262 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:06,190 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:58:06,190 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:06,190 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:58:06,190 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:06,191 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 03:58:06,191 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 03:58:06,191 INFO sqlalchemy.engine.base.Engine ('19MB424', '2003-05-07', 1, 0)
+2020-05-02 03:58:17,458 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:58:17,458 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:17,459 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:58:17,459 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:17,459 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:58:17,460 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:17,462 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:58:17,462 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:17,463 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:58:17,463 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:58:17,464 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:58:17,464 INFO sqlalchemy.engine.base.Engine ()
+((u'PUNYA MAHESH    (H)',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 03:59:17,667 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:59:17,668 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:59:17,668 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:59:17,668 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:59:17,669 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:59:17,669 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:59:17,670 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 03:59:17,670 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:59:17,671 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:59:17,671 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 03:59:17,673 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 03:59:17,673 INFO sqlalchemy.engine.base.Engine ()
+((u'HITHU V S',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:00:01,496 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:00:01,496 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:00:01,496 INFO sqlalchemy.engine.base.Engine ('19MB094', '2003-06-03', 1, 0)
+2020-05-02 04:00:07,952 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:00:07,952 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:07,953 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:00:07,953 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:07,953 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:00:07,954 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:00:07,954 INFO sqlalchemy.engine.base.Engine ('19MB094', '2003-06-03', 1, 0)
+2020-05-02 04:00:33,666 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:00:33,666 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:33,666 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:00:33,666 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:33,667 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:00:33,667 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:39,746 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:00:39,746 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:39,747 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:00:39,747 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:00:39,747 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:00:39,748 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:02:53,175 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:02:53,175 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:02:53,176 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:02:53,176 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:02:53,177 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:02:53,177 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:02:53,177 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:02:53,177 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:02:53,177 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:02:53,178 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:02:53,178 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:02:53,177 INFO sqlalchemy.engine.base.Engine ()
+((u'HARSHIL H K',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:05:35,525 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:05:35,527 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:05:35,527 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:05:35,527 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:05:35,527 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:05:35,528 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:05:35,528 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:05:35,529 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:05:35,529 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:05:35,529 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:05:35,530 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:05:35,530 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:06:35,716 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:06:35,716 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:06:35,716 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:06:35,716 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:06:35,718 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:06:35,718 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:06:35,718 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:06:35,718 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:06:35,719 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:06:35,719 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:06:35,721 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:06:35,721 INFO sqlalchemy.engine.base.Engine ()
+((u'HARSHIL H K',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:07:36,945 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:07:36,946 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:07:36,946 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:07:36,946 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:07:36,947 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:07:36,947 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:07:36,949 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:07:36,949 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:07:36,950 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:07:36,950 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:07:36,951 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:07:36,951 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:08:38,108 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:08:38,108 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:08:38,108 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:08:38,108 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:08:38,109 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:08:38,110 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:08:38,110 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:08:38,110 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:08:38,111 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:08:38,111 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:08:38,113 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:08:38,113 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:09:36,296 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:09:36,296 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:09:36,298 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:09:36,298 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:09:36,299 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:09:36,299 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:09:36,300 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:09:36,300 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:09:36,301 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:09:36,301 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:09:36,302 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:09:36,302 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:18:43,521 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:18:43,522 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:18:43,522 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:18:43,522 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:18:43,522 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:18:43,523 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:18:43,523 INFO sqlalchemy.engine.base.Engine ('19MB141', '3003-07-09', 1, 0)
+2020-05-02 04:19:05,412 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:19:05,412 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:19:05,412 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:19:05,413 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:19:05,413 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:19:05,414 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:19:05,414 INFO sqlalchemy.engine.base.Engine ('19MB141', '2003-07-9', 1, 0)
+2020-05-02 04:26:14,622 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:26:14,622 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:26:14,622 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:26:14,623 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:26:14,623 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:26:14,624 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:26:14,624 INFO sqlalchemy.engine.base.Engine ('umesh', 'umesh', 1, 0)
+((u'umesh',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:31:46,020 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:31:46,020 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:31:46,020 INFO sqlalchemy.engine.base.Engine ('19MB424', '2003-05-07', 1, 0)
+(None, '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:34:21,335 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:34:21,336 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:34:21,336 INFO sqlalchemy.engine.base.Engine ('umesh', 'umesh', 1, 0)
+((u'umesh',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:38:41,539 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:38:41,539 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:38:41,539 INFO sqlalchemy.engine.base.Engine (' 19MB051', '2004-01-14', 1, 0)
+2020-05-02 04:38:51,165 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:38:51,165 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:38:51,165 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:38:51,165 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:38:51,166 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:38:51,166 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:38:51,167 INFO sqlalchemy.engine.base.Engine ('', '2004-01-14', 1, 0)
+(None, '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:38:59,214 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:38:59,215 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:38:59,215 INFO sqlalchemy.engine.base.Engine ('19MB051', '2004-01-14', 1, 0)
+((u'HITHU V S',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:48:33,413 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:48:33,413 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:48:33,413 INFO sqlalchemy.engine.base.Engine ('161820', '2003-07-28', 1, 0)
+(None, '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+(None, '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:49:04,267 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:49:04,267 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:49:04,267 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:49:04,267 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:49:04,268 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:49:04,268 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:49:04,269 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:49:04,269 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:49:04,269 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:49:04,270 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:49:04,270 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 04:49:04,270 INFO sqlalchemy.engine.base.Engine ()
+((u'PUNYA MAHESH    (H)',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 04:49:22,453 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:49:22,453 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:49:22,453 INFO sqlalchemy.engine.base.Engine ('19MB054', '2003-07-09', 1, 0)
+2020-05-02 04:54:25,246 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:54:25,247 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:54:25,247 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 04:54:25,247 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 04:54:25,247 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 04:54:25,248 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 04:54:25,248 INFO sqlalchemy.engine.base.Engine ('19MC503', '2003-02-08', 1, 0)
+2020-05-02 05:04:25,390 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:04:25,390 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:04:25,391 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:04:25,391 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:04:25,391 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 05:04:25,392 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 05:04:25,392 INFO sqlalchemy.engine.base.Engine ('19MB001', '2003-10-02', 1, 0)
+((u'MANOJ J BHARADWAJ',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+(None, '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 05:05:39,616 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:05:39,619 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:05:39,619 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:05:39,620 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:05:39,620 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:05:39,620 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 05:05:39,617 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:05:39,621 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:05:39,621 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:05:39,622 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 05:05:39,622 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:05:39,621 INFO sqlalchemy.engine.base.Engine ()
+((u'ROHITH H.R    (H)',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 05:05:47,215 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 05:05:47,215 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 05:05:47,215 INFO sqlalchemy.engine.base.Engine ('19MB527', '2004-03-07', 1, 0)
+((u'PRAJWAL R ',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 05:08:18,765 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 05:08:18,766 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 05:08:18,766 INFO sqlalchemy.engine.base.Engine ('19MB562', '2003-03-15', 1, 0)
+((u'LIKHITH A L',), '--------')
+['Plant_kingdom-key.docx', 'PLANT_KINGDOM.docx', 'maths_cet_online_test-2.docx', '_maths_cet_online_test-2-key.docx', 'Chem-CLASSIFI_OF_ELEMENTS.docx', 'Chem-CLASSIFI_OF_ELEMENTS-key.docx', 'Phy-_Motion_in_two_dimension__Gravitation.doc', 'Phy-_Motion_in_two_dimension_gravition-key.doc', 'Maths_cet_online_Test-3_-key.docx', 'Maths_cet_online_Test-3.docx', 'Bio-_Morphology_of_flowering_plants.docx', 'Bio-_Morphology_of_flowering-key.docx', 'Chem-_CHEMICAL_BONDING.docx', 'Chem-CHEMICAL_BONDING-key.docx', 'Phy-Laws_of_motion.doc', 'Phy-laws_of_motion-key.doc', 'Maths_cet_online_test-4_-key.docx', 'Maths_cet_online_test-4.docx', 'Bio-_Aimal_kingdom.docx', 'Bio-_Animal_kingdom-key.docx', 'Phy-Heat_work_sheet.doc', 'Phy-Heat_key.doc', 'Chem-P-Block-element.docx', 'Chem-P-Block element-key.doc', 'Bio-Transport in plants -key.docx', 'Bio-Transport in plants.docx', 'Maths-QUADRATIC EQUATION-key.docx', 'Maths-QUADRATIC EQUAJTION-Test-7.docx', 'Phy-Mechanical_properties_of_solids_and_fluids_key.doc', 'Phy-Mechanical_properties_of_solids_and_fluids.doc', 'Chem-S-Block Element.docx', 'Chem-S-Block Element-key.doc', 'Maths_cet_online_test-5 -key.docx', 'Maths_cet_online_test-5.docx', 'Bio- cell___cell_division-key.docx', 'Bio-cell___cell_division.docx', 'Chem-Equilibrium.docx', 'Chem-Equilibrium-key.docx', 'Phy-Oscillations_key.docx', 'Phy-Oscillations_online_worksheet.doc', 'Maths-sequence_and_series_-Test-7-key.docx', 'Maths-SEQUENCE_AND_SERIES-Test-7.docx', 'Bio-Respiration_in_plants-Plnat_growth___development.docx', 'Bio-Respiration_plants_-key.docx', 'maths_cet_online_test-16-key.docx', 'maths_cet_online_test-16.docx', 'Bio-Digestion_and_absorption -key.docx', 'Bio-Digestion_and_absorption.docx']
+['Plant_kingdom-key', 'PLANT_KINGDOM', 'maths_cet_online_test-2', '_maths_cet_online_test-2-key', 'Chem-CLASSIFI_OF_ELEMENTS', 'Chem-CLASSIFI_OF_ELEMENTS-key', 'Phy-_Motion_in_two_dimension__Gravitation', 'Phy-_Motion_in_two_dimension_gravition-key', 'Maths_cet_online_Test-3_-key', 'Maths_cet_online_Test-3', 'Bio-_Morphology_of_flowering_plants', 'Bio-_Morphology_of_flowering-key', 'Chem-_CHEMICAL_BONDING', 'Chem-CHEMICAL_BONDING-key', 'Phy-Laws_of_motion', 'Phy-laws_of_motion-key', 'Maths_cet_online_test-4_-key', 'Maths_cet_online_test-4', 'Bio-_Aimal_kingdom', 'Bio-_Animal_kingdom-key', 'Phy-Heat_work_sheet', 'Phy-Heat_key', 'Chem-P-Block-element', 'Chem-P-Block element-key', 'Bio-Transport in plants -key', 'Bio-Transport in plants', 'Maths-QUADRATIC EQUATION-key', 'Maths-QUADRATIC EQUAJTION-Test-7', 'Phy-Mechanical_properties_of_solids_and_fluids_key', 'Phy-Mechanical_properties_of_solids_and_fluids', 'Chem-S-Block Element', 'Chem-S-Block Element-key', 'Maths_cet_online_test-5 -key', 'Maths_cet_online_test-5', 'Bio- cell___cell_division-key', 'Bio-cell___cell_division', 'Chem-Equilibrium', 'Chem-Equilibrium-key', 'Phy-Oscillations_key', 'Phy-Oscillations_online_worksheet', 'Maths-sequence_and_series_-Test-7-key', 'Maths-SEQUENCE_AND_SERIES-Test-7', 'Bio-Respiration_in_plants-Plnat_growth___development', 'Bio-Respiration_plants_-key', 'maths_cet_online_test-16-key', 'maths_cet_online_test-16', 'Bio-Digestion_and_absorption -key', 'Bio-Digestion_and_absorption']
+2020-05-02 05:16:01,589 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 05:16:01,590 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 05:16:01,590 INFO sqlalchemy.engine.base.Engine ('19MB315', '2002-11-07', 1, 0)
+2020-05-02 05:16:34,475 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:16:34,475 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:16:34,476 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:16:34,476 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:16:34,478 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:16:34,478 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:16:34,478 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:16:34,478 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:16:34,479 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 05:16:34,479 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:16:34,481 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 05:16:34,481 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:28:07,132 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:28:07,132 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:28:07,132 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 05:28:07,132 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 05:28:07,133 INFO sqlalchemy.engine.base.Engine PRAGMA main.table_info("users")
+2020-05-02 05:28:07,133 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 06:24:38,314 INFO sqlalchemy.engine.base.Engine SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 06:24:38,315 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 06:24:38,315 INFO sqlalchemy.engine.base.Engine SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-05-02 06:24:38,315 INFO sqlalchemy.engine.base.Engine ()
+2020-05-02 06:24:38,315 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2020-05-02 06:24:38,316 INFO sqlalchemy.engine.base.Engine SELECT users.name AS users_name 
+FROM users 
+WHERE users.username IN (?) AND users.password IN (?)
+ LIMIT ? OFFSET ?
+2020-05-02 06:24:38,316 INFO sqlalchemy.engine.base.Engine ('19MB410', '2003-08-09', 1, 0)
