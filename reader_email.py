@@ -11,7 +11,7 @@ class email_access():
         self.SMTP_SERVER = "imap.gmail.com"
         self.SMTP_PORT   = 587
         #self.search_text = '(SUBJECT "II MASTERS PU COLLEGE" UNSEEN)'
-        self.search_text = '(OR (SUBJECT "II MASTERS PU COLLEGE" UNSEEN) (SUBJECT "II MASTERS PU COLLEGE KEY" UNSEEN))'
+        self.search_text = '(OR (SUBJECT "I MASTERS PU COLLEGE" UNSEEN) (SUBJECT "I MASTERS PU COLLEGE KEY" UNSEEN))'
     def read_email_from_gmail(self):
   
         id_list = []
